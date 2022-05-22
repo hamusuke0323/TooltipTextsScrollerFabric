@@ -3,7 +3,7 @@
   "id": "tooltipscroller",
   "version": "${version}",
   "name": "Tooltip Texts Scroller",
-  "description": "This is a mod that adds keybinds to scroll up-down tooltip texts",
+  "description": "This is a mod that adds keybindings to scroll up-down tooltip texts",
   "authors": [
     "hamusuke2303"
   ],
