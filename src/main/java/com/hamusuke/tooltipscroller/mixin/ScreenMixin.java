@@ -15,7 +15,7 @@ public class ScreenMixin {
     @Shadow
     protected TextRenderer textRenderer;
 
-    @ModifyVariable(method = "renderTooltipFromComponents", at = @At(value = "STORE", ordinal = 2), ordinal = 5)
+    @ModifyVariable(method = "renderTooltipFromComponents", at = @At(value = "STORE", ordinal = 1), ordinal = 5)
     private int renderTooltipFromComponents(int m) {
         return m + TooltipScrollerClient.AMOUNT.get();
     }
